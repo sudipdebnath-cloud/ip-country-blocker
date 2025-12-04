@@ -10,7 +10,7 @@
 ## Features
 - Block access from selected countries
 - Allow only specific countries to view your website
-- Easy-to-use settings in WordPress dashboard
+- Easy-to-use settings via the plugin menu
 - Lightweight and performance-friendly
 - Works with any WordPress theme
 
@@ -20,13 +20,13 @@
 
 1. Download the plugin folder (`ip-country-blocker`) and upload it to your WordPress `/wp-content/plugins/` directory.
 2. Activate the plugin through the **Plugins** menu in WordPress.
-3. Go to **Settings → IP & Country Blocker** to configure countries and options.
+3. Go to the **IP & Country Blocker** menu in the WordPress dashboard to configure countries and options.
 
 ---
 
 ## Usage
 
-1. Navigate to **Settings → IP & Country Blocker** in your WordPress dashboard.
+1. Navigate to the **IP & Country Blocker** menu in your WordPress dashboard.
 2. Select the countries you want to block or allow.
 3. Save your settings — the plugin will start restricting access based on the selected countries.
 
@@ -46,7 +46,7 @@
 ### 1.0.0
 - Initial release
 - Basic country block and allow features
-- WordPress dashboard settings page
+- Separate **IP & Country Blocker** menu in WordPress dashboard
 
 ---
 
