@@ -1,0 +1,25 @@
+.wicb-wrap h1 {
+    margin-bottom: 15px;
+}
+
+.wicb-country-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.wicb-country-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.wicb-country-item input {
+    margin-right: 8px;
+    margin-top: 0px;
+}
