@@ -8,10 +8,13 @@
 ---
 
 ## Features
-- Block access from selected countries
-- Allow only specific countries to view your website
-- Easy-to-use settings via the plugin menu
-- Lightweight and performance-friendly
+- Enable or disable **Country Blocking** and **IP Blocking** independently using checkboxes  
+- Block access from selected countries  
+- Block access from specific IP addresses  
+- Submenus for detailed management:  
+  - **Country Blocker**: Search and select countries to restrict access  
+  - **IP Blocker**: Add multiple IP addresses to block access  
+- Lightweight and performance-friendly  
 - Works with any WordPress theme
 
 ---
@@ -20,22 +23,29 @@
 
 1. Download the plugin folder (`ip-country-blocker`) and upload it to your WordPress `/wp-content/plugins/` directory.
 2. Activate the plugin through the **Plugins** menu in WordPress.
-3. Go to the **IP & Country Blocker** menu in the WordPress dashboard to configure countries and options.
+3. Go to the **IP & Country Blocker** menu in the WordPress dashboard to configure your settings.
 
 ---
 
 ## Usage
 
 1. Navigate to the **IP & Country Blocker** menu in your WordPress dashboard.
-2. Select the countries you want to block or allow.
-3. Save your settings — the plugin will start restricting access based on the selected countries.
+2. Enable or disable the features you want:
+   - **Country Blocking** — block specific countries  
+   - **IP Blocking** — block specific IP addresses  
+   You can enable both, only one, or keep both disabled.
+3. Use the submenus to configure details:
+   - **Country Blocker**: Search and select countries from where you want to restrict access  
+   - **IP Blocker**: Add one or multiple IP addresses to restrict access
+4. Save your settings — the plugin will start restricting access based on your configuration.
 
 ---
 
 ## Screenshots
-1. Plugin settings page
-2. Country selection interface
-3. Access denied message (optional)
+1. Plugin main menu with enable/disable checkboxes  
+2. Country Blocker submenu with search and selection  
+3. IP Blocker submenu with multiple IP entries  
+4. Access denied message (optional)  
 
 *Replace these with real screenshots before publishing.*
 
@@ -44,19 +54,21 @@
 ## Changelog
 
 ### 1.0.0
-- Initial release
-- Basic country block and allow features
-- Separate **IP & Country Blocker** menu in WordPress dashboard
+- Initial release  
+- Enable/disable checkboxes for Country Blocking and IP Blocking  
+- Submenus for Country Blocker and IP Blocker  
+- Search and selection of countries  
+- Add multiple IP addresses to restrict access  
 
 ---
 
 ## Frequently Asked Questions (FAQ)
 
-**Q: Will this plugin affect SEO?**  
-A: No, the plugin only blocks or allows users based on IP/country. Search engines will still crawl your public pages if not blocked.
+**Q: Can I enable both Country Blocking and IP Blocking at the same time?**  
+A: Yes, you can enable one or both depending on your needs.
 
-**Q: Can I block multiple countries at once?**  
-A: Yes, you can select multiple countries in the settings.
+**Q: Can I block multiple countries or IPs at once?**  
+A: Yes, you can select multiple countries or enter multiple IP addresses.
 
 ---
 
