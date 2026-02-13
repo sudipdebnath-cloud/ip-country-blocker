@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: IP & Country Blocker
+Plugin Name: DeveloperSD AccessShield
 Plugin URI: 
 Description: Block website access based on visitor's IP or country. Fully customizable from the admin panel.
 Version: 1.0.0
 Author: Sudip Debnath
 Author URI: https://sudipdebnath-cloud.github.io/
 License: GPL2
-Text Domain: ip-country-blocker
+Text Domain: developersd-accessshield
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;

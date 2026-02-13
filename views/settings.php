@@ -1,10 +1,11 @@
 <?php
+defined('ABSPATH') || exit;
 $wicb_settings = WICB_Settings_Page::get_settings();
 ?>
 <div class="wrap wicb-wrap">
     <h1>
-        <?php echo esc_html__('IP & Country Blocker', 'ip-country-blocker'); ?> - 
-        <?php echo esc_html__('Settings', 'ip-country-blocker'); ?>
+        <?php echo esc_html__('IP & Country Blocker', 'developersd-accessshield'); ?> - 
+        <?php echo esc_html__('Settings', 'developersd-accessshield'); ?>
     </h1>
 
     <form method="post" action="options.php">
@@ -13,7 +14,7 @@ $wicb_settings = WICB_Settings_Page::get_settings();
 
         <table class="form-table">
             <tr>
-                <th scope="row"><?php echo esc_html__('Enable Country Blocking', 'ip-country-blocker'); ?></th>
+                <th scope="row"><?php echo esc_html__('Enable Country Blocking', 'developersd-accessshield'); ?></th>
                 <td>
                     <input type="checkbox" name="wicb_settings[enable_country]" value="1"
                         <?php checked($wicb_settings['enable_country'], 1); ?>>
@@ -21,7 +22,7 @@ $wicb_settings = WICB_Settings_Page::get_settings();
             </tr>
 
             <tr>
-                <th scope="row"><?php echo esc_html__('Enable IP Blocking', 'ip-country-blocker'); ?></th>
+                <th scope="row"><?php echo esc_html__('Enable IP Blocking', 'developersd-accessshield'); ?></th>
                 <td>
                     <input type="checkbox" name="wicb_settings[enable_ip]" value="1"
                         <?php checked($wicb_settings['enable_ip'], 1); ?>>

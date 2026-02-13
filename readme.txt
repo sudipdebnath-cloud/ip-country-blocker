@@ -1,4 +1,4 @@
-=== IP & Country Blocker ===
+=== DeveloperSD AccessShield ===
 Contributors: developersd
 Tags: ip blocker, country blocker, security, firewall, access control
 Requires at least: 5.0
@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Block access based on visitor's country or IP address with simple, fast, and customizable rules.
 
 == Description ==
-IP & Country Blocker allows you to restrict site access using IP addresses or visitor country. Easily manage block lists, allow lists, and Geo-based filtering with API-driven detection.
+DeveloperSD AccessShield allows you to restrict site access using IP addresses or visitor country. Easily manage block lists, allow lists, and Geo-based filtering with API-driven detection.
 
 == Features ==
 * Enable/disable IP blocking  
@@ -25,7 +25,7 @@ IP & Country Blocker allows you to restrict site access using IP addresses or vi
 == Installation ==
 1. Upload the plugin files to `/wp-content/plugins/`  
 2. Activate the plugin through the "Plugins" menu in WordPress  
-3. Go to **Settings → IP & Country Blocker** to configure  
+3. Go to **Settings → DeveloperSD AccessShield** to configure  
 
 == Changelog ==
 = 1.0.0 =

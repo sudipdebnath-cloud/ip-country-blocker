@@ -54,9 +54,9 @@ class WICB_Settings_Page {
         if (!$notice) return;
 
         if ($notice === 'success') {
-            echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Settings updated successfully.', 'ip-country-blocker') . '</p></div>';
+            echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Settings updated successfully.', 'developersd-accessshield') . '</p></div>';
         } elseif ($notice === 'error') {
-            echo '<div class="notice notice-error is-dismissible"><p>' . esc_html__('No changes made or an error occurred.', 'ip-country-blocker') . '</p></div>';
+            echo '<div class="notice notice-error is-dismissible"><p>' . esc_html__('No changes made or an error occurred.', 'developersd-accessshield') . '</p></div>';
         }
 
         delete_transient('wicb_settings_notice');

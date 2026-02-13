@@ -1,9 +1,11 @@
-# IP & Country Blocker
+# DeveloperSD AccessShield
 
 ![License](https://img.shields.io/badge/license-GPLv2-blue) ![Version](https://img.shields.io/badge/version-1.0.0-green)
 
 ## Description
-**IP & Country Blocker** is a WordPress plugin that allows you to block or restrict access to your site based on the visitor’s IP address or country. It is useful for protecting your site from spam, restricting content to specific countries, or complying with regional policies.
+**DeveloperSD AccessShield** is a lightweight WordPress security plugin that allows you to restrict access to your website based on visitor IP addresses or geographic location (country).
+
+It helps protect your website from unwanted traffic, spam activity, or region-specific access restrictions while maintaining optimal performance.
 
 ---
 
@@ -21,15 +23,15 @@
 
 ## Installation
 
-1. Download the plugin folder (`ip-country-blocker`) and upload it to your WordPress `/wp-content/plugins/` directory.
+1. Download the plugin folder (`developersd-accessshield`) and upload it to your WordPress `/wp-content/plugins/` directory.
 2. Activate the plugin through the **Plugins** menu in WordPress.
-3. Go to the **IP & Country Blocker** menu in the WordPress dashboard to configure your settings.
+3. Go to the **DeveloperSD AccessShield** menu in the WordPress dashboard to configure your settings.
 
 ---
 
 ## Usage
 
-1. Navigate to the **IP & Country Blocker** menu in your WordPress dashboard.
+1. Navigate to the **DeveloperSD AccessShield** menu in your WordPress dashboard.
 2. Enable or disable the features you want:
    - **Country Blocking** — block specific countries  
    - **IP Blocking** — block specific IP addresses  

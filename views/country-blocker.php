@@ -1,4 +1,5 @@
 <?php
+defined('ABSPATH') || exit;
 $wicb_response = wp_remote_get('https://api.first.org/data/v1/countries?limit=300');
 $wicb_data = json_decode(wp_remote_retrieve_body($wicb_response), true);
 
